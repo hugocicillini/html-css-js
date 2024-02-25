@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(0, 92, 128, 0.178);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- table
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th -->
+    <table>
+        <caption> População dos Estados do Brasil </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45kk</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+                <td>São Paulo</td>
+                <td>45kk</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td><tr>
+                <td>São Paulo</td>
+                <td>45kk</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td><tr>
+                <td>São Paulo</td>
+                <td>45kk</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>   
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+                <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr><tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>21kk</td>
+            <tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td>1b</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem eos. Ab, commodi ducimus, reiciendis quaerat nihil quam illo non eos culpa dolore quibusdam cupiditate doloribus ullam. Aperiam, odio. Ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sapiente sed, voluptatum esse optio id beatae magni, voluptates nihil reiciendis dolorum nam aliquam sequi saepe qui adipisci atque neque aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fuga culpa velit similique perferendis quas fugiat impedit sunt, qui molestiae eaque delectus optio cum nisi labore mollitia porro libero quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti impedit neque consectetur, incidunt tenetur expedita iusto natus ut. Minima mollitia accusamus sunt distinctio reprehenderit aliquid commodi maiores laudantium voluptates cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde aliquid culpa ratione deleniti, porro fuga provident ex facere amet optio expedita facilis, necessitatibus perspiciatis. Sequi magnam dolor odit enim.</p>
+    
+</body>
+</html>
